@@ -1,6 +1,6 @@
-window.onloadTurnstileCallback = () => {
+const onloadTurnstileCallback = () => {
   const opt = {
-    sitekey: "<YOUR_SITE_KEY>",
+    sitekey: "0x4AAAAAAAAsaSc3yvVEoUpH",
     theme: "light",
     callback: (token) => {
       console.log(`Challenge Success ${token}`);
